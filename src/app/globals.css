@@ -1,20 +1,30 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@theme {
+  --color-header: #353042;
+  --color-ring: #ff709b;
+  --color-text: #ffa7ad;
+  --color-burguer: #f2e168;
+  --color-react: #00ffff;
+  --color-tailwind: #00bcff;
+  --color-axios: #671ddf;
+  --color-typescript: #3178c6;
+  --color-node: #8cc84b;
+  --color-git: #f34f29;
+  --color-mongodb: #4db33d;
+  --color-javascript: #f7df1e;
+  --font-font-family: "Source Code Pro", monospace;
+}
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #2c2638;
     --foreground: #ededed;
   }
 }
