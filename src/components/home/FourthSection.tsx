@@ -8,7 +8,7 @@ import { IoLogoJavascript } from "react-icons/io";
 
 export default function FourthSection() {
   return (
-    <div className="flex flex-col items-center justify-center mt-10">
+    <div className="flex flex-col items-center justify-center mt-20">
       <div className="rounded-full bg-ring w-36 h-10 flex items-center justify-center gap-3">
         <PiStarFourFill className="text-burguer" />
         <p className="text-white font-font-family font-semibold text-lg">
