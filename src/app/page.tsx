@@ -1,4 +1,5 @@
 import Header from "@/components/common/Header";
+import FifthSection from "@/components/home/FifthSection";
 import FirstSection from "@/components/home/FirstSection";
 import FourthSection from "@/components/home/FourthSection";
 import SecondSection from "@/components/home/SecondSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <SecondSection/>
       <ThirdSection/>
       <FourthSection/>
+      <FifthSection/>
     </div>
   );
 }
