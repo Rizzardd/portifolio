@@ -1,5 +1,4 @@
-import Image from "next/image";
-import placeholder from "../../../public/assets/images/placeholder-img.png";
+
 import { PiStarFourFill } from "react-icons/pi";
 
 export default function SecondSection() {

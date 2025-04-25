@@ -1,9 +1,8 @@
 "use client";
 
-import { useTextCycle } from "@/hooks/useTextCycle";
-import { FaGithub } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { IoDocumentTextOutline } from "react-icons/io5";
+import { useTextCycle } from "../hooks/useTextCycle";
 
 export default function FirstSection() {
   const text = useTextCycle(
