@@ -1,25 +1,26 @@
+import Image from "next/image";
 import { IoLogoReact } from "react-icons/io5";
 
 interface CardProps {
   title: string;
-  description: string;
-  icon: React.ReactNode;
+  image: string;
 }
 
 export default function Card(props: CardProps) {
-
   return (
-    <div className="w-[90%] p-6 bg-header border border-ring rounded-lg shadow-sm items-center flex flex-col justify-center mx-auto mt-5 mb-5">
-      {props.icon}
+    <div className="inline-flex items-center gap-2 px-3 py-1.5 border bg-header  border-ring  rounded-md shadow-sm ">
+      <Image
+        src={props.image}
+        alt={props.title}
+        width={22}
+        height={22}
+        className="rounded-md"
+      />
       <a href="#">
-        <h5 className=" mb-2 text-2xl font-semibold tracking-tight text-white  ">
+        <h5 className="text-sm text-gray-300 font-medium font-font-family">
           {props.title}
         </h5>
       </a>
-
-      <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
-        {props.description}
-      </p>
     </div>
   );
 }
