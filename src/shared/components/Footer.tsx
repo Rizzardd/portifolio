@@ -8,7 +8,7 @@ interface FooterProps {
 export default function Footer(props: FooterProps) {
   return (
     <div className="flex flex-col items-start mb-20 ">
-      <div className=" flex flex-col gap-2">
+      <div className=" flex flex-col gap-2 mb-5">
         <h1 className="text-white font-font-family font-semibold text-2xl ml-5">
           Get in touch
         </h1>
