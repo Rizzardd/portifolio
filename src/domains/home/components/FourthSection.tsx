@@ -1,10 +1,5 @@
 import { PiStarFourFill } from "react-icons/pi";
 
-import { IoLogoReact } from "react-icons/io5";
-import { RiNextjsFill, RiNodejsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiAxios, SiMongodb, SiTypescript } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
 import Card from "@/shared/components/Card";
 import { stack } from "../constants/stack";
 
