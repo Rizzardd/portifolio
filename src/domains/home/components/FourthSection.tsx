@@ -1,7 +1,5 @@
 import { PiStarFourFill } from "react-icons/pi";
 
-
-
 import { IoLogoReact } from "react-icons/io5";
 import { RiNextjsFill, RiNodejsFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiAxios, SiMongodb, SiTypescript } from "react-icons/si";
@@ -23,21 +21,20 @@ export default function FourthSection() {
         <h1 className="font-font-family font-semibold text-2xl">
           Growing skills and early achievements
         </h1>
-        <p className="pt-2 font-font-family">I've worked with different technologies over time. Here are some I'm experienced with:</p>
+        <p className="pt-2 font-font-family">
+          I've worked with different technologies over time. Here are some I'm
+          experienced with:
+        </p>
       </div>
- <div className="flex flex-wrap gap-2 justify-center items-center">
- {stack.map((item, index) => (
-          <Card
-            key={index}
-            image={item.image}
-            title={item.title}
-           
-          />
-        )
- )}
-      
- </div>
- <p className="font-font-family font-normal text-sm mt-5"> ...and many more!</p>
+      <div className="flex flex-wrap gap-2 justify-center items-center">
+        {stack.map((item, index) => (
+          <Card key={index} image={item.image} title={item.title} />
+        ))}
+      </div>
+      <p className="font-font-family font-normal text-sm mt-5">
+        {" "}
+        ...and many more!
+      </p>
     </div>
   );
 }
